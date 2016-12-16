@@ -1,11 +1,11 @@
 $(function(){
 	
 	$(".jyo-nav-button").click(function(){
-		$("#skills").fadeOut(0.000001);
+		$("#skills").hide();
 	});//click
 	
 	$(".jyo-nav-button").click(function(){
-		$("#about").fadeOut(0.00001);
+		$("#about").hide();
 	});//click
 	
 	//pagination
