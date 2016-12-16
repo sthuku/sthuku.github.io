@@ -1,5 +1,13 @@
 $(function(){
 	
+	$(".jyo-nav-button").click(function(){
+		$("#skills").hide();
+	});//click
+	
+	$(".jyo-nav-button").click(function(){
+		$("#about").hide();
+	});//click
+	
 	//pagination
 	paging("jyo-exp", "hdn-exp");
 	paging("jyo-proj", "hdn-proj");
@@ -64,6 +72,12 @@ $(function(){
 			$.each(content, function(key, value){
 				$("#"+key).click(function(){
 					showHide(content, key);
+					if(key == "skillsLink"){
+						$(".pagin").hide();
+					} 
+					else{
+						$(".pagin").show();
+					} 
 				});//click
 			});
 

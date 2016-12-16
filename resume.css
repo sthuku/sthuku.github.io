@@ -32,6 +32,7 @@ html, body {
 	margin-top:15%;
 }
 
+
 .jyo-nav a{
 	color:white;
 }
@@ -97,6 +98,10 @@ html, body {
 
 .jyo-c-ash{
 	color:#333;
+}
+
+.jyo-c-gold{
+	color:#cc9900;
 }
 
 .cus-hidden{
