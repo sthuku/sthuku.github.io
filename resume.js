@@ -1,4 +1,13 @@
 $(function(){
+	
+	$(".jyo-nav-button").click(function(){
+		$("#skills").fadeOut(0.000001);
+	});//click
+	
+	$(".jyo-nav-button").click(function(){
+		$("#about").fadeOut(0.00001);
+	});//click
+	
 	//pagination
 	paging("jyo-exp", "hdn-exp");
 	paging("jyo-proj", "hdn-proj");
@@ -84,13 +93,6 @@ $(function(){
 			$("#projectsLink").click(function(){
 				$("#jyo-proj-1").show();
 			});
-	$(".jyo-nav-button").click(function(){
-		$("#skills").hide();
-	});//click
-	
-	$(".jyo-nav-button").click(function(){
-		$("#about").hide();
-	});//click
 			
 		});
 
